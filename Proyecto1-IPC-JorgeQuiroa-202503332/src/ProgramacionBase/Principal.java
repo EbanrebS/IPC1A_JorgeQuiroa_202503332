@@ -1,5 +1,5 @@
 
-package CodigoPrincipal;
+package ProgramacionBase;
 
 
 public class Principal {
