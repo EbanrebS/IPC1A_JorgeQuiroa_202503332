@@ -5,13 +5,12 @@ import java.util.Random;
 public class Logueo extends JFrame{
     
     private JLabel etiqueta1;
-    private JTextField Text;
-    private JTextField Text2;
+    private JTextField Text,Text2;
     private JButton Boton;
     
     public Logueo(){
         //Inicializar la ventana
-        super("Refugio de Animales - Control de Acceso");
+        super("Centro de Rescate Animal");
         setLayout(null);
         setSize(450, 200);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
