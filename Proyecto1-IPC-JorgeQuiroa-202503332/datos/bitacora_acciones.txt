@@ -3,3 +3,7 @@
 13/09/2026 17:40|admin1|TEST|PRUEBA|esto es una prueba
 13/09/2026 17:41:14|admin1|TEST|PRUEBA|esto es una prueba
 13/09/2026 20:09:54|admin1|AUTENTICACION|LOGIN_OK|Inicio de sesion correcto
+13/09/2026 21:29:45|admin1|AUTENTICACION|LOGIN_OK|Inicio de sesion correcto
+13/09/2026 21:31:28|admin1|AUTENTICACION|LOGIN_OK|Inicio de sesion correcto
+13/09/2026 21:31:49|admin1|AUTENTICACION|LOGIN_OK|Inicio de sesion correcto
+13/09/2026 21:58:54|admin1|AUTENTICACION|LOGIN_OK|Inicio de sesion correcto

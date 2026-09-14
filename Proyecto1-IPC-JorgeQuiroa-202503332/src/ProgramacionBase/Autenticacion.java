@@ -10,8 +10,21 @@ public class Autenticacion {
 
     public static String validarLogin(String usuario, String contrasena) {
         
-        if (intentosFallidos >= 3) {
-            return "BLOQUEADO";
+       
+
+        if (usuario == null || usuario.trim().isEmpty() || contrasena == null || contrasena.trim().isEmpty()) {
+            Bitacora.logFallido(usuario, "AUTENTICACION", "VALIDACION", "Usuario o contraseña vacíos");
+            return "CAMPOS_VACIOS";
+        }
+
+        if (usuario.length() < 4 || usuario.length() > 15) {
+            Bitacora.logFallido(usuario, "AUTENTICACION", "VALIDACION", "Usuario fuera de longitud permitida (4-15 caracteres)");
+            return "FORMATO_INVALIDO";
+        }
+
+        if (contrasena.length() < 6) {
+            Bitacora.logFallido(usuario, "AUTENTICACION", "VALIDACION", "Contraseña con menos de 6 caracteres");
+            return "FORMATO_INVALIDO";
         }
 
         if (usuario.equals("admin1") && contrasena.equals("Refugio2026")) {

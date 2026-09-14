@@ -52,6 +52,10 @@ public class Logueo extends JFrame{
             } else if (resultado.equals("BLOQUEADO")) {
                 JOptionPane.showMessageDialog(this, "Sesión bloqueada, reinicie la aplicación.");
                 Boton.setEnabled(false);
+            } else if (resultado.equals("CAMPOS_VACIOS")) {
+                JOptionPane.showMessageDialog(this, "Debe ingresar usuario y contraseña.");
+            } else if (resultado.equals("FORMATO_INVALIDO")) {
+                JOptionPane.showMessageDialog(this, "Usuario o contraseña con formato inválido.");
             }
         });
     }
