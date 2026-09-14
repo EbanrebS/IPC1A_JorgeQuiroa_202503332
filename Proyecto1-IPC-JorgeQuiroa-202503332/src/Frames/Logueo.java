@@ -36,6 +36,7 @@ public class Logueo extends JFrame{
         Boton.setBounds(125, 100, 200, 30);
         add(Boton);
         
+        
     }
     private String obtenerFrase() {
         String[] frases = new String[5];
