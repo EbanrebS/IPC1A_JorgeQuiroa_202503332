@@ -15,3 +15,7 @@
 14/09/2026 00:28:14|admin1|AUTENTICACION|LOGIN_OK|Inicio de sesion correcto
 14/09/2026 00:29:16|admin1|AUTENTICACION|LOGIN_OK|Inicio de sesion correcto
 14/09/2026 00:29:43|admin1|AUTENTICACION|LOGIN_OK|Inicio de sesion correcto
+14/09/2026 11:36:12|admin1|AUTENTICACION|LOGIN_OK|Inicio de sesion correcto
+14/09/2026 11:38:02|admin1|AUTENTICACION|LOGIN_OK|Inicio de sesion correcto
+14/09/2026 12:02:27|admin1|AUTENTICACION|LOGIN_OK|Inicio de sesion correcto
+14/09/2026 12:04:22|admin1|AUTENTICACION|LOGIN_OK|Inicio de sesion correcto
