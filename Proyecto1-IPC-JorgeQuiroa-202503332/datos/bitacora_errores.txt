@@ -1,2 +1,10 @@
 13/09/2026 17:52:05|admin1|TEST|PRUEBA|esto es una prueba
 13/09/2026 20:09:39|admin1|TEST|PRUEBA|esto es una prueba
+13/09/2026 21:23:30|Admin1|AUTENTICACION|LOGIN_FALLIDO|Usuario o contraseña incorrectos (intento 1 de 3)
+13/09/2026 21:23:31|Admin1|AUTENTICACION|LOGIN_FALLIDO|Usuario o contraseña incorrectos (intento 2 de 3)
+13/09/2026 21:23:33|Admin1|AUTENTICACION|LOGIN_FALLIDO|Usuario o contraseña incorrectos (intento 3 de 3)
+13/09/2026 21:25:27|cacademono1|AUTENTICACION|LOGIN_FALLIDO|Usuario o contraseña incorrectos (intento 1 de 3)
+13/09/2026 21:25:31|cacademono1|AUTENTICACION|LOGIN_FALLIDO|Usuario o contraseña incorrectos (intento 2 de 3)
+13/09/2026 21:27:28|Admin1 dsd |AUTENTICACION|LOGIN_FALLIDO|Usuario o contraseña incorrectos (intento 1 de 3)
+13/09/2026 21:27:31|Admin1 dsd |AUTENTICACION|LOGIN_FALLIDO|Usuario o contraseña incorrectos (intento 2 de 3)
+13/09/2026 21:27:33|Admin1 dsd |AUTENTICACION|LOGIN_FALLIDO|Usuario o contraseña incorrectos (intento 3 de 3)

@@ -1,11 +1,15 @@
 package ProgramacionBase;
 
-public class Autenticacion {
+import Frames.Logueo;
+import Frames.Principal;
 
+public class Autenticacion {
+    
     private static int intentosFallidos = 0;
+    
 
     public static String validarLogin(String usuario, String contrasena) {
-
+        
         if (intentosFallidos >= 3) {
             return "BLOQUEADO";
         }
