@@ -1,0 +1,27 @@
+13/09/2026 17:52:05|admin1|TEST|PRUEBA|esto es una prueba
+13/09/2026 20:09:39|admin1|TEST|PRUEBA|esto es una prueba
+13/09/2026 21:23:30|Admin1|AUTENTICACION|LOGIN_FALLIDO|Usuario o contraseña incorrectos (intento 1 de 3)
+13/09/2026 21:23:31|Admin1|AUTENTICACION|LOGIN_FALLIDO|Usuario o contraseña incorrectos (intento 2 de 3)
+13/09/2026 21:23:33|Admin1|AUTENTICACION|LOGIN_FALLIDO|Usuario o contraseña incorrectos (intento 3 de 3)
+13/09/2026 21:25:27|cacademono1|AUTENTICACION|LOGIN_FALLIDO|Usuario o contraseña incorrectos (intento 1 de 3)
+13/09/2026 21:25:31|cacademono1|AUTENTICACION|LOGIN_FALLIDO|Usuario o contraseña incorrectos (intento 2 de 3)
+13/09/2026 21:27:28|Admin1 dsd |AUTENTICACION|LOGIN_FALLIDO|Usuario o contraseña incorrectos (intento 1 de 3)
+13/09/2026 21:27:31|Admin1 dsd |AUTENTICACION|LOGIN_FALLIDO|Usuario o contraseña incorrectos (intento 2 de 3)
+13/09/2026 21:27:33|Admin1 dsd |AUTENTICACION|LOGIN_FALLIDO|Usuario o contraseña incorrectos (intento 3 de 3)
+13/09/2026 21:29:43|admin1|AUTENTICACION|LOGIN_FALLIDO|Usuario o contraseña incorrectos (intento 1 de 3)
+13/09/2026 21:56:47|admin|AUTENTICACION|VALIDACION|Usuario o contraseña vacíos
+13/09/2026 21:56:51|admin|AUTENTICACION|VALIDACION|Usuario o contraseña vacíos
+13/09/2026 21:56:54||AUTENTICACION|VALIDACION|Usuario o contraseña vacíos
+13/09/2026 21:56:55||AUTENTICACION|VALIDACION|Usuario o contraseña vacíos
+13/09/2026 21:56:55||AUTENTICACION|VALIDACION|Usuario o contraseña vacíos
+13/09/2026 21:56:55||AUTENTICACION|VALIDACION|Usuario o contraseña vacíos
+13/09/2026 21:56:57||AUTENTICACION|VALIDACION|Usuario o contraseña vacíos
+13/09/2026 21:57:23||AUTENTICACION|VALIDACION|Usuario o contraseña vacíos
+13/09/2026 21:57:26|s|AUTENTICACION|VALIDACION|Usuario fuera de longitud permitida (4-15 caracteres)
+13/09/2026 21:57:47|asd|AUTENTICACION|VALIDACION|Usuario o contraseña vacíos
+13/09/2026 21:57:48|asd|AUTENTICACION|VALIDACION|Usuario o contraseña vacíos
+13/09/2026 21:58:21||AUTENTICACION|VALIDACION|Usuario o contraseña vacíos
+13/09/2026 21:58:26|asd|AUTENTICACION|VALIDACION|Usuario o contraseña vacíos
+13/09/2026 21:58:33|asd|AUTENTICACION|VALIDACION|Usuario fuera de longitud permitida (4-15 caracteres)
+13/09/2026 21:58:34|asd|AUTENTICACION|VALIDACION|Usuario fuera de longitud permitida (4-15 caracteres)
+13/09/2026 21:58:45||AUTENTICACION|VALIDACION|Usuario o contraseña vacíos

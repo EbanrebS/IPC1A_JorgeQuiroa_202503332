@@ -1,7 +1,7 @@
 package Frames;
 import javax.swing.*;
 import java.util.Random;
-
+import ProgramacionBase.Autenticacion;
 public class Logueo extends JFrame{
     
     private JLabel etiqueta1;
@@ -36,6 +36,28 @@ public class Logueo extends JFrame{
         Boton.setBounds(125, 100, 200, 30);
         add(Boton);
         
+        //Agregar la funcion al boton
+        Boton.addActionListener(e -> {
+            String usuario = Text.getText();
+            String contrasena = Text2.getText();
+            String resultado = Autenticacion.validarLogin(usuario, contrasena);
+
+            if (resultado.equals("OK_ADMIN") || resultado.equals("OK_AUXILIAR")) {
+                JOptionPane.showMessageDialog(this, "Bienvenido, acceso concedido.");
+                Principal ventana2 = new Principal();
+                ventana2.setVisible(true);
+                this.dispose();
+            } else if (resultado.equals("FALLO")) {
+                JOptionPane.showMessageDialog(this, "Usuario o contraseña incorrectos.");
+            } else if (resultado.equals("BLOQUEADO")) {
+                JOptionPane.showMessageDialog(this, "Sesión bloqueada, reinicie la aplicación.");
+                Boton.setEnabled(false);
+            } else if (resultado.equals("CAMPOS_VACIOS")) {
+                JOptionPane.showMessageDialog(this, "Debe ingresar usuario y contraseña.");
+            } else if (resultado.equals("FORMATO_INVALIDO")) {
+                JOptionPane.showMessageDialog(this, "Usuario o contraseña con formato inválido.");
+            }
+        });
     }
     private String obtenerFrase() {
         String[] frases = new String[5];
