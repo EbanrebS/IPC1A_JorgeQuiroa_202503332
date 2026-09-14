@@ -67,7 +67,16 @@ public class Principal extends JFrame {
         panelContenedor = new JPanel(layout);
         panelContenedor.setBounds(220, 60, 680, 540);
         add(panelContenedor);
-
+        
+        JPanel panelInicio = new JPanel();
+        panelContenedor.add(panelInicio, "INICIO");
+        PanelAnimales panelAnimales = new PanelAnimales();
+        panelContenedor.add(panelAnimales, "ANIMALES");
+        layout.show(panelContenedor, "INICIO");
+        btnAnimales.addActionListener(e -> {
+            titulo.setText("Gestión de Animales");
+            layout.show(panelContenedor, "ANIMALES");
+        });
     }
 
 }
