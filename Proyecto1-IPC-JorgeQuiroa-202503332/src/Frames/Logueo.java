@@ -44,7 +44,8 @@ public class Logueo extends JFrame{
 
             if (resultado.equals("OK_ADMIN") || resultado.equals("OK_AUXILIAR")) {
                 JOptionPane.showMessageDialog(this, "Bienvenido, acceso concedido.");
-                Principal ventana2 = new Principal();
+                boolean esAdmin = resultado.equals("OK_ADMIN");
+                Principal ventana2 = new Principal(esAdmin);
                 ventana2.setVisible(true);
                 this.dispose();
             } else if (resultado.equals("FALLO")) {
